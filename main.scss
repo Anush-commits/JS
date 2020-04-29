@@ -1,0 +1,99 @@
+$bg: #3e4149;
+$header: #588da8;
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    height: 100%;
+    background-color: $bg;
+}
+main {
+    height: 100vh;
+    margin: 0 auto;
+ 
+  fieldset {
+      width: 80%;
+      height: 50%;
+      position: relative;
+      top: 20em;
+      left: calc(100% - 90%);
+      border: 2px solid #444f5a;
+      legend {
+          font-size: 1.5em;
+          color: $header;
+      }
+  }
+  #sub{
+    position: relative;
+    top: 15em;
+    left: calc(100% - 30%);
+    background-color: #444f5a;
+    color: #f1f3f4;
+    width: 7em;
+    height: 2.5em;
+    border: none;
+    font-size: 1.5em;
+  }
+}
+#timeSet{
+    position: relative;
+    top: 2em;
+    left: 3em;
+    color: $header;
+    font-weight: 200;
+    font-size: 2em;
+    display: inline-block;
+ }
+
+ img {
+     width: 30%;
+     height: 30%;
+     position: absolute;
+     top: 5%;
+     left: 35%;
+ }
+ #answers {
+     list-style: none;
+     position: relative;
+     left: 10em;
+     label {
+         font-size: 1.5em;
+         font-weight: 400;
+         line-height: 2em;
+         color: #f1f3f4;
+         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     }
+     input {
+         display: inline-block;
+         width:  10em;
+     }
+ }
+ .material-icons {
+     font-size: 2em;
+ }
+ #score {
+    position: relative;
+    top: 5em;
+    left: 7em;
+    color: $header;
+    font-weight: 200;
+    font-size: 2em;
+    display: inline-block;
+    color: $header;
+ }
+#next {
+    display: none;
+    position: relative;
+    bottom: 5em;
+    left: calc(100% - 60%);
+    background-color: #444f5a;
+    color: $header;
+    width: 7em;
+    height: 2.5em;
+    border: none;
+    font-size: 1.5em;
+}
+ 
